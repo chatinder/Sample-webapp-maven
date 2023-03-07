@@ -1,2 +1,14 @@
-# Sample-webapp-maven
-This is a sample web app for maven and tomcat for CI CD integration using github, jenkins and docker on production server
+
+
+# Build Instruction
+
+
+```
+mvn clean package
+and build the instruction .
+```
+
+# Deploy instruction
+
+Deploy ```target/WebApp.war``` on Tomcat properly for better experience.
+
