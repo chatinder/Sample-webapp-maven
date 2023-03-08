@@ -1,5 +1,8 @@
-FROM tomcat 
-WORKDIR webapps 
-COPY target/WebApp.war .
-RUN rm -rf ROOT && mv WebApp.war ROOT.war
-ENTRYPOINT ["sh", "/usr/local/tomcat/bin/startup.sh"]
+# Pull base image 
+From tomcat:8-jre8 
+
+# Maintainer
+MAINTAINER "valaxytech@gmail.com" 
+
+# copy war file on to container 
+COPY ./WebApp.war /usr/local/tomcat/webapps
