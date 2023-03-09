@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>CI CD pipeline with Ansible </title>
+    <title>CI CD pipeline with Ansible jenkins </title>
 
 
     <!-- Custom styles for this template -->
